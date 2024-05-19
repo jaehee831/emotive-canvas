@@ -7,7 +7,9 @@ from pathlib import Path
 import tempfile
 import os 
 from analyze_house import analyze_house
-# from analyze_tree import analyze_tree 
+from analyze_tree import analyze_tree 
+from analyze_person import analyze_person
+
 def save_uploaded_file(uploaded_file):
     try:
         with tempfile.NamedTemporaryFile(delete=False, suffix='.jpg') as tmpfile:
@@ -123,8 +125,12 @@ if 'result_image_path' in st.session_state:
                     data = np.loadtxt(file, dtype=str)
                     all_data.append(data.astype(float))
             all_data = np.concatenate(all_data)
-            score, result = analyze_house(data)
-
+            if htp == 'House':
+                score, result = analyze_house(data)
+            elif htp == 'Tree':
+                score, result = analyze_tree(data)
+            else:
+                score, result = analyze_person(data)
             # 심리 분석 결과 출력
             st.markdown('<p style="text-align: center; font-weight: bold;">심리 분석 결과</p>', unsafe_allow_html=True)
             if htp == 'House':
