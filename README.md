@@ -95,7 +95,7 @@ Emotive Canvas는 다음과 같은 방식으로 작동합니다.
 
   ![image-20240519005704078](/image/tree.PNG)
 
-  ![image-20240519002149603](/image/person.png)
+  ![image-20240519002149603](/image/person.PNG)
 
   
 
