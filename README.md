@@ -91,9 +91,9 @@ Emotive Canvas는 다음과 같은 방식으로 작동합니다.
 
 - rule-based feature analysis algorithm은 지배적인 HTP 검사 해석 결과에 따라 구성되었으며, logic은 아래와 같습니다. 
 
-  ![image-20240519005411665](/image/house.png)
+  ![image-20240519005411665](/image/house.PNG)
 
-  ![image-20240519005704078](/image/tree.png)
+  ![image-20240519005704078](/image/tree.PNG)
 
   ![image-20240519002149603](/image/person.png)
 
