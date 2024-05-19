@@ -101,9 +101,8 @@ Emotive Canvas는 다음과 같은 방식으로 작동합니다.
 
 ## 🧑‍🎨Requirement
 
-dependencies 
-
-환경 설정 
+streamlit 
+numpy
 
 
 
