@@ -1,6 +1,8 @@
 # 🎨Emotive Canvas
 
-![logo](/image/logo.png)
+<p align="center">
+  ![logo](/image/logo.png)
+</p>
 
 Emotive Canvas는 HTP 검사 기반 심리 분석 서비스입니다. 
 
